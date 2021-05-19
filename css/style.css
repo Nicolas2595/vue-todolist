@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    height: 100vh;
+    background-color: royalblue;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    color: maroon;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 20px;
+    cursor: pointer;
+    background-color: seagreen;
+}
+
+li .barText {
+    text-decoration: line-through;
+    color: red;
+}
+
+.fa-times {
+    font-size: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: red;
+}
+input {
+    padding: 10px;
+    width: 300px;
+    margin: 30px;
+    background-color: lightcoral;
+    border-radius: 20px;
+    border: 3px solid green;
+}
+
+button {
+    padding: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+
+
